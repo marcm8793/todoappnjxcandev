@@ -66,6 +66,7 @@ const Task: React.FC<TaskProps> = ({ task }) => {
           className="text-red-500"
           size={25}
         />
+
         <Modal modalOpen={openModalDeleted} setModalOpen={setOpenModalDeleted}>
           <h3 className="text-lg">
             Are you sure, you want to delete this task?
